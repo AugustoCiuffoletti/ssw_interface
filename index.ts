@@ -1,12 +1,12 @@
 // Import stylesheets
 import "./style.css";
 
-interface mioTipo {
+interface miaInterface {
   f1: string;
   f2: number;
   op: (arg1: number) => number;
 }
-var X: mioTipo = {
+var X: miaInterface = {
   f1: "",
   f2: 0,
   op: function(x) {
@@ -14,7 +14,7 @@ var X: mioTipo = {
   }
 };
 X.f1 = "Hello";
-X.f2 = 2;  // Provate a sostituire 2 con "Hallo"
+X.f2 = 2; // Provate a sostituire 2 con "Hallo"
 console.log(X);
 console.log(X.op(7));
 X.op = function(a) {
