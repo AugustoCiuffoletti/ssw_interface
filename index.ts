@@ -14,7 +14,7 @@ var X: mioTipo = {
   }
 };
 X.f1 = "Hello";
-X.f2 = 2;
+X.f2 = 2;  // Provate a sostituire 2 con "Hallo"
 console.log(X);
 console.log(X.op(7));
 X.op = function(a) {
